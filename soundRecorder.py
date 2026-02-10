@@ -1,6 +1,5 @@
 import sounddevice as sd
 from scipy.io.wavfile import write
-import wavio as wv
 
 freq = 44100 #samp frequency
 duration = int(input("Recording duration (s):")) #record duration
