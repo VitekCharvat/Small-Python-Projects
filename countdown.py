@@ -10,3 +10,4 @@ def countdown():
     except ValueError:
         print("please enter a whole number")
 countdown()
+print("Countdown ended")
