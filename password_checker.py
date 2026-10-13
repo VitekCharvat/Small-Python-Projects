@@ -14,6 +14,10 @@ def password_strenght(password):
     else:
         return "Strong"
 
-print("your password is",password_strenght("password"))
 
 
+
+def main():
+    print("your password is",password_strenght("password"))
+if __name__ == "__main__":
+    main()

@@ -1,5 +1,5 @@
 #import random
-def pocit(nalada):
+def pocit():
 
     nalada = str(input("jak se dnes cítíš?"))
 
@@ -13,5 +13,10 @@ def pocit(nalada):
         print("tak to mě mrzí")
     else:
         print("tak to joooo")
-pocit("nalada")
+    return
+
+def main():
+    pocit()
+if __name__ == "__main__":
+    main()
 

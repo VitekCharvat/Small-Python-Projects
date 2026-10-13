@@ -9,5 +9,9 @@ def countdown():
             countTime -= 1
     except ValueError:
         print("please enter a whole number")
-countdown()
-print("Countdown ended")
+
+def main():
+    countdown()
+    print("Countdown ended")
+if __name__ == "__main__":
+    main()

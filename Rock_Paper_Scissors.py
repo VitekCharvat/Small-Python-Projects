@@ -39,4 +39,10 @@ def rock_paper_scissors(stop = "yes"):
         else:
             logging.info("game ended!")
             break
-rock_paper_scissors("yes")
+
+
+def main():
+    UI()
+    rock_paper_scissors("yes")
+if __name__ == "__main__":
+    main()
